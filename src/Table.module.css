@@ -1,0 +1,208 @@
+/* .Chead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 20px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.nchead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.tchead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.nrhead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.trhead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.ndhead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.tdhead{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    text-decoration: underline;
+    background-color: rgb(235, 232, 232) !important;
+} */
+
+
+
+/* .country{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px !important;
+    background-color: rgb(235, 232, 232) !important;
+    padding-left: 10px !important;
+} */
+
+/* .confirm{
+    color: red !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 80px !important;
+    background-color: rgb(245, 243, 243) !important;
+    margin-left: 2px !important;
+}
+
+.tconfirm{
+    color: red !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 80px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.recover{
+    color: rgb(42, 167, 42) !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 80px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.trecover{
+    color: rgb(42, 167, 42) !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 80px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.death{
+    color: grey !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left:75px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.tdeath{
+    color: grey !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left:75px !important;
+    background-color: rgb(245, 243, 243) !important;
+} */
+
+.container{
+    width: 50% !important;
+    margin-left: 25% !important;
+    margin-top: 20px !important;
+}
+
+.header{
+    /* width: 100%; */
+    text-align: center;
+    font-size: 50px;
+    margin-top: -25px;
+    margin-bottom: -45px;
+    /* background-color: rgb(230, 224, 224) !important; */
+    color: black !important;
+    padding: 5px 0;
+    text-decoration: underline;
+    
+}
+
+
+.span{
+    color: rgb(214, 3, 3);
+}
+
+.search{
+    text-align: center;
+    /* background-color: rgb(230, 224, 224) !important; */
+    margin-top: 30px;
+}
+
+/* input{
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 20px !important;
+    font-size: 19px;
+    padding: 7px 0;
+    text-decoration: none;
+    border: 2px solid black !important;
+    border-radius: 8px;
+    background-color: rgb(230, 224, 224) !important;
+    color: black !important;
+}
+
+input:focus{
+    outline: none;
+} */
+
+.footer{
+    text-align: center;
+    color: black !important;
+    /* background-color:  rgb(230, 224, 224) !important; */
+    padding: 10px 0;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+@media(max-width: 770px){
+    .container{
+        width: 100% !important;
+        margin-left: -1px !important;
+    }
+
+    .country{
+        position: absolute !important;
+        padding-right: 30px !important;
+        width: 5.8em !important;
+        height: 10vh !important;
+        padding-bottom: 40px !important;
+        background-color: rgb(235, 232, 232) !important;
+    }
+
+    .chead{
+        position: absolute !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        padding-right: 26px !important;
+    }
+
+    .nchead{
+        padding-left: 180px !important;
+    }
+
+    .confirm{
+        padding-left: 190px !important;
+    }
+
+}
