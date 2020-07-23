@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(230, 224, 224) !important;;
+}
+
+.Dhead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.chead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.ahead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(235, 232, 232) !important;
+    padding-left:25px !important;
+}
+
+.rhead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.dhead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(235, 232, 232) !important;
+}
+
+.container{
+    width: 50% !important;
+    margin-left: 25% !important;
+    margin-top: 30px !important;
+}
+
+.district{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px !important;
+    background-color: rgb(235, 232, 232) !important;
+    padding-left: 10px !important;
+    
+}
+
+.confirmed{
+    color: red !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 35px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.active{
+    color: rgb(61, 125, 245) !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 30px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.recovered{
+    color: rgb(33, 141, 33) !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 50px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.deaths{
+    color: grey !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 40px !important;
+    background-color: rgb(245, 243, 243) !important;
+}
+
+.deltc{
+    font-size: 14px !important;
+}
+
+.deltr{
+    font-size: 14px !important;
+
+}
+
+.deltd{
+    font-size: 14px !important;
+
+}
+
+.header{
+    /* width: 100%; */
+    text-align: center;
+    font-size: 50px;
+    margin-top: -25px;
+    margin-bottom: -45px;
+    background-color: rgb(230, 224, 224) !important;
+    color: black;
+    padding: 5px 0;
+    text-decoration: underline;
+}
+
+.span{
+    color: rgb(214, 3, 3);
+}
+
+.search{
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+.footer{
+    text-align: center;
+    color: black !important;
+    background-color:  rgb(230, 224, 224) !important;
+    padding: 10px 0;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+@media(max-width: 770px){
+    .container{
+        width: 100% !important;
+        margin-left: -1px !important;
+    }
+
+    input{
+        width: 80%;
+        padding: 15px 0;
+    }
+
+    .district{
+        position: absolute !important;
+        padding-right: 30px !important;
+        width: 6em !important;
+        padding-bottom: 40px !important;
+        background-color: rgb(235, 232, 232) !important;
+    }
+
+    .Dhead{
+        width: 6em !important;
+        position: absolute !important;
+    }
+
+    .chead{
+        padding-left: 150px !important;
+    }
+
+    .confirmed{
+        padding-left: 170px !important;
+    }
+}

@@ -1,0 +1,45 @@
+.span{
+    color: rgb(214, 3, 3);
+}
+
+.search{
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+
+
+
+@media(max-width: 770px){
+    .container{
+        width: 100% !important;
+        margin-left: -1px !important;
+        overflow-x: hidden !important;
+    }
+
+    input{
+        width: 80%;
+        padding: 15px 0;
+    }
+
+    .state{
+        position: absolute !important;
+        padding-right: 30px !important;
+        width: 6em !important;
+        padding-bottom: 40px !important;
+        background-color: rgb(235, 232, 232) !important;
+    }
+
+    .shead{
+        width: 6em !important;
+        position: absolute !important;
+    }
+
+    .chead{
+        padding-left: 150px !important;
+    }
+
+    .confirmed{
+        padding-left: 170px !important;
+    }
+}

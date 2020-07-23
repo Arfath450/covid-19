@@ -1,0 +1,997 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.switch{
+    float: right;
+    padding-top: 70px ;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+
+
+
+.light-mode
+.mcontainer{
+    background-color: rgb(230, 224, 224);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.dark-mode
+.mcontainer{
+    background-color: #161625;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif !important;
+}
+  
+.light-mode
+input{
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 20px !important;
+    font-size: 19px;
+    padding: 7px 0;
+    text-decoration: none;
+    border: 2px solid black !important;
+    border-radius: 8px;
+    background-color: rgb(230, 224, 224) !important;
+    color: black !important;
+}
+
+input:focus{
+    outline: none;
+}
+
+.dark-mode
+input{
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 20px !important;
+    font-size: 19px;
+    padding: 7px 0;
+    text-decoration: none;
+    border: 2px solid #161625 !important;
+    border-radius: 8px;
+    background-color: #1e1e30 !important;
+    color: rgb(230, 224, 224) !important;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+/***********************************************Cards Styling*****************************************************/
+
+.Ccontainer{
+    width: 100% !important;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.light-mode
+.card{
+    margin: 0 3% !important;
+    border-radius: 5% !important;
+    font-family: 'Poppins', sans-serif !important;
+    box-shadow: 0 5px 5px 0 black !important;
+    background-color: white !important;
+}
+
+.light-mode
+.confi{
+    color: black !important;
+    text-align: center !important;
+    font-size: 32px !important;
+    margin-bottom: 5px !important;
+    text-decoration: underline !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.light-mode
+.para{
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+
+.light-mode
+.date{
+    color: black !important;
+    font-size: 14px !important;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+.dark-mode
+.card{
+    margin: 0 3% !important;
+    border-radius: 5% !important;
+    font-family: 'Poppins', sans-serif !important;
+    box-shadow: 0 5px 5px 0 black !important;
+    background-color: #1e1e30 !important;
+}
+
+.dark-mode
+.confi{
+    color: white !important;
+    text-align: center !important;
+    font-size: 32px !important;
+    margin-bottom: 5px !important;
+    text-decoration: underline !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.dark-mode
+.para{
+    color: white !important;
+    font-size: 18px !important;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+
+.dark-mode
+.date{
+    color: white !important;
+    font-size: 14px !important;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************* India Table Styling *************************************************/
+
+
+
+
+
+.light-mode{
+    background-color: rgb(230, 224, 224) !important;
+    color: black !important;
+}
+
+.light-mode
+.shead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline !important;
+    background-color: rgb(245, 243, 243) !important;
+    font-size: 18px !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+    
+}
+
+.light-mode
+.chead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.ahead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.rhead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.dhead{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+    .state{
+        color: black!important;
+        font-family: 'Open Sans', sans-serif !important;
+        background-color: rgb(245, 243, 243) !important;
+        padding-left: 10px !important; 
+        border: 3px solid rgb(230, 224, 224) !important;
+        width: 2em !important;
+        font-size: 14px !important;   
+    }
+
+.light-mode
+    .header{
+        text-align: center;
+        font-size: 50px;
+        margin-top: -25px;
+        margin-bottom: -45px;
+        margin-left: 70px;
+        background-color: rgb(230, 224, 224) !important;
+        color: black;
+        padding: 5px 0;
+    }
+
+    .light-mode
+    .confirmed{
+        color: red !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 35px !important;
+        background-color: rgb(245, 243, 243) !important;
+        border: 3px solid rgb(230, 224, 224) !important;
+    }
+    
+    .light-mode
+    .active{
+        color: rgb(61, 125, 245) !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 15px !important;
+        background-color: rgb(245, 243, 243) !important;
+        border: 3px solid rgb(230, 224, 224) !important;
+    }
+    
+    .light-mode
+    .recovered{
+        color: rgb(33, 141, 33) !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 40px !important;
+        background-color: rgb(245, 243, 243) !important;
+        border: 3px solid rgb(230, 224, 224) !important;
+    }
+    
+    .light-mode
+    .deaths{
+        color: grey !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 30px !important;
+        background-color: rgb(245, 243, 243) !important;
+        border: 3px solid rgb(230, 224, 224) !important;
+    }
+
+    .light-mode
+    .container{
+        width: 50% !important;
+        margin-left: 23% !important;
+        margin-top: 30px !important;
+    }
+
+.light-mode
+    .footer{
+        text-align: center;
+        color: black !important;
+        background-color:  rgb(230, 224, 224) !important;
+        padding: 10px 0;
+        font-size: 22px;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+
+.light-mode
+    .search{
+        margin-top: 20px;
+        text-align: center !important;
+    }
+
+
+
+
+
+
+
+ /*dark-mode*/                            
+
+
+
+
+
+
+
+
+.dark-mode 
+{
+    background-color: #161625 !important;
+    color: white;
+    
+}
+
+.dark-mode
+.shead{
+    color: #838096 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline !important;
+    background-color: #1e1e30 !important;
+    font-size: 18px !important;
+    border: 3px solid #161625 !important;
+    
+}
+
+.dark-mode
+.chead{
+    color: #838096 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.ahead{
+    color: #838096 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.rhead{
+    color: #838096 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.dhead{
+    color: #838096 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+    .state{
+        color: #838096!important;
+        font-family: 'Open Sans', sans-serif !important;
+        background-color: #1e1e30 !important;
+        padding-left: 10px !important; 
+        border: 3px solid #161625 !important;
+        width: 2em !important;
+        font-size: 14px !important;   
+    }
+
+.dark-mode
+    .header{
+        text-align: center;
+        font-size: 50px;
+        margin-top: -25px;
+        margin-bottom: -45px;
+        margin-left: 70px;
+        background-color: #161625 !important;
+        color: white !important;
+        padding: 5px 0;
+    }
+
+.dark-mode
+    .confirmed{
+        color: red !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 35px !important;
+        border: 3px solid #161625 !important;
+    }
+    
+.dark-mode
+    .active{
+        color: rgb(61, 125, 245) !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 15px !important;
+        border: 3px solid #161625 !important;
+    }
+    
+.dark-mode
+    .recovered{
+        color: rgb(33, 141, 33) !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 40px !important;
+        border: 3px solid #161625 !important;
+    }
+    
+.dark-mode
+    .deaths{
+        color: grey !important;
+        font-size: 14px !important;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 30px !important;
+        border: 3px solid #161625 !important;
+    }
+
+.dark-mode
+    .container{
+        color: black !important;
+        background-color:#1e1e30 !important;
+        width: 50% !important;
+        margin-left: 23% !important;
+        margin-top: 30px !important;
+        /* overflow-x: hidden !important; */
+    }
+
+.dark-mode
+    .search{
+        margin-top: 20px;
+        text-align: center !important;
+        overflow-x: hidden !important;
+    }
+
+.dark-mode
+    .footer{
+        text-align: center;
+        color: white !important;
+        background-color:  #161625 !important;
+        padding: 10px 0;
+        font-size: 22px;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+
+
+
+
+/******************************************* India Table Styling *************************************************/
+
+
+
+
+
+
+.light-mode
+.Chead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.nchead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.tchead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.nrhead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.trhead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.ndhead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.tdhead{
+    color: black !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.country{
+    color: black !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    background-color: #1e1e30 !important;
+    padding-left: 10px !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+
+
+
+
+
+
+
+
+.dark-mode
+.Chead{
+    color: #838096 !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.nchead{
+    width: 5em !important;
+    color: #838096 !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+
+.dark-mode
+.nrhead{
+    width: 5em !important;
+    color: #838096 !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+
+.dark-mode
+.ndhead{
+    width: 5em !important;
+    color: #838096 !important;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: underline;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+
+.dark-mode
+.country{
+    width: 5em !important;
+    color: #838096 !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    background-color: #1e1e30 !important;
+    padding-left: 10px !important;
+    border: 3px solid #161625 !important;
+}
+
+
+
+.light-mode
+.confirm{
+    color: red !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+    margin-left: 2px !important;
+}
+
+.light-mode
+.tconfirm{
+    color: red !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.recover{
+    color: rgb(42, 167, 42) !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.trecover{
+    color: rgb(42, 167, 42) !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.death{
+    color: grey !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+.light-mode
+.tdeath{
+    color: grey !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(245, 243, 243) !important;
+    border: 3px solid rgb(230, 224, 224) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-mode
+.confirm{
+    color: red !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+    margin-left: 2px !important;
+}
+
+.dark-mode
+.tconfirm{
+    color: red !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.recover{
+    color: rgb(42, 167, 42) !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.trecover{
+    color: rgb(42, 167, 42) !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.death{
+    color: grey !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+.dark-mode
+.tdeath{
+    color: grey !important;
+    font-size: 14px !important;
+    text-align:center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #1e1e30 !important;
+    border: 3px solid #161625 !important;
+}
+
+
+
+
+
+
+@media(max-width:770px){
+
+    body{
+        width: 100% !important;
+        height: 100vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+    
+
+    .Ccontainer{
+        width: 85% !important;
+    }
+    
+    .light-mode
+    .card{
+        margin-bottom: 20px !important;
+    }
+    .dark-mode
+    .card{
+        margin-bottom: 20px !important;
+    }
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************/
+
+
+
+
+    .light-mode
+    .container{
+        width: 100% !important;
+        margin-left: -1px !important;
+    }
+
+    .dark-mode
+    .container{
+        width: 100% !important;
+        margin-left: -1px !important;
+    }
+
+    .light-mode
+    .state{
+        position: absolute !important;
+        padding-right: 30px !important;
+        text-align: center !important;
+        width: 7.2em !important;
+        padding-bottom: 45px !important;
+        background-color: rgb(245, 243, 243) !important;
+        font-size: 14px !important;
+        border: 3px solid rgb(230, 224, 224) !important;
+        /* overflow-x: hidden !important; */
+    }
+
+    .light-mode
+    .shead{
+        width: 6em !important;
+        text-align: center !important;
+        position: absolute !important;
+    }
+
+    .light-mode
+    .chead{
+        padding-left: 150px !important;
+    }
+
+    .light-mode
+    .confirmed{
+        padding-left: 170px !important;
+        
+    }
+
+
+
+
+    .dark-mode
+    .state{
+        position: absolute !important;
+        padding-right: 30px !important;
+        width: 7.2em !important;
+        text-align: center !important;
+        padding-bottom: 45px !important;
+        background-color: #1e1e30 !important;
+        border: 3px solid #161625 !important;
+        font-size: 14px !important;
+        /* overflow-x: hidden !important; */
+    }
+
+    .dark-mode
+    .shead{
+        width: 6em !important;
+        position: absolute !important;
+        text-align: center !important;
+        border: 3px solid #161625 !important;
+        
+    }
+
+    .dark-mode
+    .chead{
+        padding-left: 150px !important;
+    }
+
+    .dark-mode
+    .confirmed{
+        padding-left: 170px !important;
+        
+    }   
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************/
+
+.light-mode
+.Chead{
+    width: 6.35em !important;
+    padding-top: 10px !important;
+        position: absolute !important;
+        padding-bottom: 45px !important;
+}
+
+.light-mode
+.nchead{
+    padding-left: 150px !important;
+}
+
+.light-mode
+.confirm{
+    padding-left: 160px !important;
+}
+
+.light-mode
+.country{
+    position: absolute !important;
+        padding-right: 30px !important;
+        width: 7.2em !important;
+        text-align: center !important;
+        background-color: rgb(245, 243, 243) !important;
+        border: 3px solid rgb(230, 224, 224) !important;
+        font-size: 13px !important;
+        padding-top: 15px !important;
+        padding-bottom: 45px !important;
+}
+
+
+.dark-mode
+.Chead{
+    width: 6.35em !important;
+    padding-top: 15px !important;
+        position: absolute !important;
+        padding-bottom: 45px !important;
+}
+
+.dark-mode
+.nchead{
+    padding-left: 150px !important;
+}
+
+.dark-mode
+.confirm{
+    padding-left: 160px !important;
+}
+
+.dark-mode
+.country{
+    position: absolute !important;
+        padding-right: 30px !important;
+        width: 7.2em !important;
+        text-align: center !important;
+        background-color: #1e1e30 !important;
+        border: 3px solid #161625 !important;
+        font-size: 13px !important;
+        padding-top: 15px !important;
+        padding-bottom: 45px !important;
+}
+
+.light-mode
+.switch{
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+.dark-mode
+.switch{
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+}
