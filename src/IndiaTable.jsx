@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
-import { render } from '@testing-library/react';
 import StateTable from './StateTable';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -9,12 +8,10 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Styles from './India.module.css'; 
-import CountUp from 'react-countup';
-import { Card, CardContent, Typography, Grid, Paper} from '@material-ui/core';
+import  { Typography } from '@material-ui/core';
 import { Sparklines, SparklinesLine, SparklinesSpots } from 'react-sparklines';
 import Total from './Total.module.css'
 import './index.css';
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 
 const url="https://api.covid19india.org/data.json";
 

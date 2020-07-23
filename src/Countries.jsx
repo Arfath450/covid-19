@@ -1,7 +1,6 @@
 import React from 'react';
 import TableCell from '@material-ui/core/TableCell';
 import TableRow from '@material-ui/core/TableRow';
-import Styles from './Table.module.css';
 import CountUp from 'react-countup';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 

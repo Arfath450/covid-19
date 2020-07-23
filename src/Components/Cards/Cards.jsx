@@ -1,9 +1,7 @@
 import React from 'react';
-import { Card, CardContent, Typography, Grid, Paper } from '@material-ui/core';
+import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import Styles from './Cards.module.css';
 import CountUp from 'react-countup';
-
-const url='https://covid19.mathdro.id/api/daily';
 
 const Cards = ({ data : { confirmed, recovered, deaths, lastUpdate } }) => {
 

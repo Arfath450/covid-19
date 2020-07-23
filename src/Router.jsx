@@ -4,8 +4,6 @@ import Styles from './App.module.css';
 import { fetchData } from './Api';
 import Link from './Link';
 import IndiaLink from './IndiaLink';
-import CityLink from './CityLink';
-import { Card, CardContent, Typography, Grid, Paper } from '@material-ui/core';
 
 class Router extends React.Component {
 

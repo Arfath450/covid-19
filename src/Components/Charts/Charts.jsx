@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {fetchMonthlyData} from '../../Api';
-import {Line, Bar} from 'react-chartjs-2';
-import { red } from '@material-ui/core/colors';
+import { Bar } from 'react-chartjs-2';
 import Styles from './Charts.module.css';
-import { Sparklines, SparklinesLine, SparklinesSpots } from 'react-sparklines';
 
 const Charts = ( {data: { confirmed, recovered, deaths}, country}) => {
     const[daily, setDaily] = useState([]);

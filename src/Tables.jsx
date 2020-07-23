@@ -49,8 +49,6 @@ class Tables extends React.Component{
     }
 
     render(){
-        const {data, country} = this.state;
-
         const date = new Date().getFullYear()
 
         if(this.state.loading){
